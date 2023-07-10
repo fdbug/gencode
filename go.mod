@@ -1,4 +1,4 @@
-module github.com/fdbug/gencode
+module gencode
 
 go 1.17
 

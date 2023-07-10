@@ -3,7 +3,7 @@ package gencode
 import (
 	"bytes"
 	"fmt"
-	"github.com/maolinc/gencode/tools/filex"
+	"gencode/tools/filex"
 	"log"
 	"os/exec"
 	"strings"

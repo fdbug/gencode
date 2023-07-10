@@ -2,7 +2,7 @@ package astx
 
 import (
 	"fmt"
-	"github.com/maolinc/gencode/tools/filex"
+	"gencode/tools/filex"
 	"go/ast"
 	"go/parser"
 	"go/printer"

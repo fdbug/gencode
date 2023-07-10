@@ -3,8 +3,8 @@ package gencode
 import (
 	"bytes"
 	"fmt"
-	"github.com/maolinc/gencode/tools/filex"
-	"github.com/maolinc/gencode/tools/stringx"
+	"gencode/tools/filex"
+	"gencode/tools/stringx"
 	"log"
 	"os"
 	"os/exec"

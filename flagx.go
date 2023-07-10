@@ -4,11 +4,12 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/maolinc/gencode/core"
-	"github.com/maolinc/gencode/tools/filex"
+	"gencode/tools/filex"
 	"log"
 	"os"
 	"strings"
+
+	gencode "gencode/core"
 )
 
 type JsonConfig struct {

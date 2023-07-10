@@ -8,18 +8,18 @@
 ## 使用
 安装
 ```shell
-go install github.com/maolinc/gencode@latest
+go install gencode@latest
 ```
 运行
 ```shell
-gencode -f="genConfig.json" 
+gencode -f="genConfig.json"
 ```
 -f 指定配置文件路径, 不指定, 则在当前文件下找genConfig.json文件, -t=init重置模板
 
 升级
 ```shell
-go clean -i github.com/maolinc/gencode
-go install github.com/maolinc/gencode@latest
+go clean -i gencode
+go install gencode@latest
 
 重新install后, 执行gencode时需带上-t=init参数才会使用最新的模板
 ```
@@ -81,7 +81,7 @@ V显示规则: 1(create), 2(update),4(select),8(delete), 1+2=3(create,update)
           1+2+4=7(create,select,update)
 根据1、2、4、8进行组合就行
 
-举个例子: 
+举个例子:
 对于sys_user表, 结构看下面的sql
 如果不想delete_flag字段在创建、查询、更新的结构体存在, 可写 {"delete_flag":7}
 如果不想create_time和update_time字段在创建、更新的结构体存在, 可写 {"create_time":3, "update_time":3}
@@ -203,7 +203,7 @@ V显示规则: 1(create), 2(update),4(select),8(delete), 1+2=3(create,update)
     "Switch": "A",
     "OutPath": "",
     "Tables": [],
-    "IsCache": false 
+    "IsCache": false
   }
 }
 ```
@@ -212,6 +212,6 @@ V显示规则: 1(create), 2(update),4(select),8(delete), 1+2=3(create,update)
 效果图
 - model
 
-![1685533140800](https://github.com/maolinc/gencode/assets/82015883/8b5815b4-e75c-4ed4-9fdb-8b0344bf84d4)
+![1685533140800](https://gencode/assets/82015883/8b5815b4-e75c-4ed4-9fdb-8b0344bf84d4)
 - api、proto略
-- 
+-

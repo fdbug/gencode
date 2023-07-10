@@ -2,7 +2,7 @@ package main
 
 import (
 	"embed"
-	gencode "github.com/maolinc/gencode/core"
+	gencode "gencode/core"
 	"log"
 )
 

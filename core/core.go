@@ -11,8 +11,8 @@ import (
 	"text/template"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/maolinc/gencode/tools/filex"
-	"github.com/maolinc/gencode/tools/stringx"
+	"gencode/tools/filex"
+	"gencode/tools/stringx"
 )
 
 const (
