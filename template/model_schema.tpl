@@ -16,6 +16,8 @@ import (
 	"time"
 )
 
+type any interface{}
+
 var (
 	singleFlights = syncx.NewSingleFlight()
 	stats         = cache.NewStat("sqlc")

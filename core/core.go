@@ -4,14 +4,15 @@ import (
 	"bytes"
 	"database/sql"
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/maolinc/gencode/tools/filex"
-	"github.com/maolinc/gencode/tools/stringx"
 	"log"
 	"os"
 	"strings"
 	"sync"
 	"text/template"
+
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/maolinc/gencode/tools/filex"
+	"github.com/maolinc/gencode/tools/stringx"
 )
 
 const (
@@ -24,6 +25,8 @@ var (
 		"delete_flag": 7, "del_flag": 7, "del_state": 7, "delete_time": 7, "del_time": 7, "delete_at": 7,
 	}
 )
+
+type any interface{}
 
 type Generate interface {
 	Generate() error
