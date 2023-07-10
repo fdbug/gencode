@@ -4,12 +4,11 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"gencode/tools/filex"
+	"github.com/fdbug/gencode/core"
+	"github.com/fdbug/gencode/tools/filex"
 	"log"
 	"os"
 	"strings"
-
-	gencode "gencode/core"
 )
 
 type JsonConfig struct {

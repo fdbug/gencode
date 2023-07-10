@@ -3,9 +3,9 @@ package gencode
 import (
 	"bytes"
 	"fmt"
-	"gencode/tools/astx"
-	"gencode/tools/filex"
-	"gencode/tools/stringx"
+	"github.com/fdbug/gencode/tools/astx"
+	"github.com/fdbug/gencode/tools/filex"
+	"github.com/fdbug/gencode/tools/stringx"
 	"log"
 	"os/exec"
 	"strings"

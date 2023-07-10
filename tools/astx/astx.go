@@ -2,7 +2,7 @@ package astx
 
 import (
 	"fmt"
-	"gencode/tools/filex"
+	"github.com/fdbug/gencode/tools/filex"
 	"go/ast"
 	"go/parser"
 	"go/printer"

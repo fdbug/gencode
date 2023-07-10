@@ -3,8 +3,8 @@ package gencode
 import (
 	"bytes"
 	"fmt"
-	"gencode/tools/filex"
-	"gencode/tools/stringx"
+	"github.com/fdbug/gencode/tools/filex"
+	"github.com/fdbug/gencode/tools/stringx"
 	"log"
 	"os"
 	"os/exec"

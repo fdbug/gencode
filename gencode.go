@@ -2,7 +2,7 @@ package main
 
 import (
 	"embed"
-	gencode "gencode/core"
+	gencode "github.com/fdbug/gencode/core"
 	"log"
 )
 

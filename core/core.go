@@ -10,9 +10,9 @@ import (
 	"sync"
 	"text/template"
 
+	"github.com/fdbug/gencode/tools/filex"
+	"github.com/fdbug/gencode/tools/stringx"
 	_ "github.com/go-sql-driver/mysql"
-	"gencode/tools/filex"
-	"gencode/tools/stringx"
 )
 
 const (
