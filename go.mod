@@ -1,4 +1,4 @@
-module github.com/maolinc/gencode
+module github.com/fdbug/gencode
 
 go 1.17
 
